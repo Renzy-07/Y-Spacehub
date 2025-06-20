@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="hero-wrap js-fullheight" style="background-image: url({% static 'images/bg_3.jpg' %});">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-3 bread">Contact Us</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="home.html">Home</a></span> <span>Contact</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	  <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row block-9">
+					<div class="col-md-4 contact-info ftco-animate bg-light p-4">
+						<div class="row">
+							<div class="col-md-12 mb-4">
+	              <h2 class="h4">Please engage us on :</h2>
+	            </div>
+	            <div class="col-md-12 mb-3">
+	              <p><span>Address:</span> Westgate Mall; M2 , Westlands-Mwanzi rd.</p>
+	            </div>
+	            <div class="col-md-12 mb-3">
+	              <p><span>Phone:</span> <a href="tel://1234567920">+ 2547 10700900</a></p>
+	            </div>
+	            <div class="col-md-12 mb-3">
+	              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@Y-Space.com</a></p>
+	            </div>
+	            <div class="col-md-12 mb-3">
+	              <p><span>Website:</span> <a href="#">www.Y_Space.com</a></p>
+	            </div>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+          <div class="col-md-6 ftco-animate">
+            <form action="#" class="contact-form">
+            	<div class="row">
+            		<div class="col-md-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" placeholder="Your Name">
+	                </div>
+                </div>
+                <div class="col-md-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" placeholder="Your Email">
+	                </div>
+	                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="map" class="map"></div>
+
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+        	<div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
+            <div class="ftco-footer-widget mb-4">
+              <h1 class="logo">Yoga_Space</h1>
+            </div>
+          </div>
+          <div class="col-lg col-md-6 mb-5 mb-md-5 ftco-animate">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="location">Westgate Mall; M2 [Y_Space].Westlands-Mwanzi rd</h2>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </footer>
+{% endblock %}
